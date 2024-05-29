@@ -1,0 +1,8 @@
+.partner-image {
+  filter: contrast(0);
+  transition: 300ms;
+  cursor: pointer;
+}
+.partner-image:hover {
+  filter: contrast(1);
+}
