@@ -1,0 +1,9 @@
+.small-banner {
+  background-image: url("../../assets/small-banner.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.small-banner .text span {
+  position: relative;
+}

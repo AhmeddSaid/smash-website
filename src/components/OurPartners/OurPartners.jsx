@@ -12,7 +12,7 @@ function OurPartners() {
   return (
     <div
       id="our-partners"
-      className="our-partners flex h-[600px] flex-col items-center gap-20 bg-white pt-[260px]"
+      className="our-partners mb-16 flex h-[600px] flex-col items-center gap-20 bg-white pt-[260px] "
     >
       <SectionTitle title="our partners" />
       <div className="images-container flex w-[80%] flex-wrap items-center justify-center gap-10">
