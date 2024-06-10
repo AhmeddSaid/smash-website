@@ -1,0 +1,39 @@
+.testimonials-section {
+  background-image: url("/src/assets/testimonials-background.svg");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 50% 70%;
+}
+
+.review-item {
+  width: 946px !important;
+  height: 518px !important;
+  display: block !important;
+  margin-top: 140px !important;
+}
+.slick-dots .slick-active .slider-dot {
+  width: 30px !important ;
+  background: var(--light-blue) !important;
+  border-radius: 12px !important;
+}
+.slick-dots li {
+  position: relative;
+  display: block !important;
+  width: unset !important;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+.slick-prev {
+  left: 300px !important;
+  scale: 3;
+  z-index: 9;
+  position: relative;
+}
+.slick-next {
+  right: 300px !important;
+  scale: 3;
+  z-index: 9;
+  position: relative;
+}

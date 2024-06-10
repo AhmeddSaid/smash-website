@@ -3,7 +3,7 @@ import SectionTitle from "../UI/SectionTitle";
 import webIcon from "../../assets/icons/web.svg";
 import seoIcon from "../../assets/icons/seo.svg";
 import { Link } from "react-router-dom";
-import arrow from "../../assets/icons/arrow.svg";
+import MainButton from "../UI/MainButton";
 
 const items = [
   {
@@ -46,12 +46,7 @@ function WhatWeDo() {
       <div className="holder flex items-center justify-center gap-9">
         {renderServices()}
       </div>
-      <Link
-        to="/"
-        className="flex items-center justify-center gap-6 rounded-2xl bg-light-blue p-6 text-2xl font-bold text-white"
-      >
-        Learn More <img src={arrow} alt="" />
-      </Link>
+      <MainButton text="Learn More" />
     </div>
   );
 }
