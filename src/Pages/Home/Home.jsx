@@ -7,6 +7,7 @@ import OurProjects from "../../components/OurProjects/OurProjects";
 import Technologies from "../../components/Technologies/Technologies";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import WhatsNew from "../../components/WhatsNew/WhatsNew";
+import Footer from "../../components/Footer/Footer";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       <Technologies />
       <Testimonials />
       <WhatsNew />
+      <Footer />
     </div>
   );
 }
